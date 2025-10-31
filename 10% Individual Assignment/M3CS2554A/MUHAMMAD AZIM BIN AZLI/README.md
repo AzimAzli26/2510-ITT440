@@ -4,10 +4,11 @@
 
 
 # 📋 Assignment Details
-- **Course:** ITT440
-- **Name:** MUHAMMAD AZIM BIN AZLI
-- **Matrix Number:** 2024539875
-- **Youtube Video:**
+### - **Course:** ITT440
+### - **Name:** MUHAMMAD AZIM BIN AZLI
+### - **Matrix Number:** 2024539875
+### - **Youtube Video:**
+
 
 # 📱Introduction
 This project demonstrates a **30-second load test and 50 request per second** on BlazeDemo using the **Vegeta load testing tool**.  
@@ -15,6 +16,7 @@ Load testing helps evaluate the **server’s performance, reliability, and respo
 
 
 # ⚙️ Test Environment & Methodology
+
 ## Test Setup
 - **Tool:** Vegeta v12.12.0  
 - **Rate:** 50 requests per second  
@@ -30,6 +32,7 @@ Load testing helps evaluate the **server’s performance, reliability, and respo
 - Success ratio  
 - Status code  
 - Error set  
+
 
 # ⏱ Test Execution
 
@@ -124,10 +127,12 @@ Error Set:
 - 90th Percentile: <400ms → 90% of users get responses under half a second
 - Worst Case: 1.5s → Rare but acceptable under load
 
+
 ## 📈 Data Transfer Efficiency
 - Total Data Received: 6.71 MB across all requests
 - Average Response Size: 4.47 KB/request
 - Throughput Efficiency: 98.9% success under sustained 50 req/sec
+
 
 ## 🔍 Key Performance Insights
 
@@ -151,6 +156,7 @@ Error Set:
    - No signs of server saturation or throttling.
    - Consistent latency and zero errors show readiness for higher load scaling.
 
+
 # 🎯 Key Findings
 
 ### ✅ Exceptional Reliability
@@ -172,9 +178,11 @@ Error Set:
 ### Performance Metrics
 <img width="1910" height="922" alt="vegeta-plot" src="https://github.com/user-attachments/assets/e3d7f5c1-8853-49ec-875c-48e4c2c6537a" />
 
+
 # ✅ Conclusion
 The BlazeDemo website maintained excellent performance and stability under a load of 50 requests per second for 30 seconds.
 With a 100% success rate, low latency, and no degradation, BlazeDemo demonstrates robust handling capacity suitable for production-scale environments.
+
 
 # 📺 References
 
